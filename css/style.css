@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #e1d8b9 url(../images/page_background.jpg) repeat-x;
+    font: 100% Georgia, "Times New Roman", Times, serif;
+}
+
+.main {
+    width: 930px;
+    margin: 30px auto 0px;
+    background: #193742 url(../images/main_back.jpg) no-repeat;
+    position: relative;
+}
+
+.main #tag {
+    position: absolute;
+    top: 35px;
+    right: -15px;
+}
+
+.left_content {
+    width: 272px;
+    float: left;
+    position: relative;
+}
+
+.left_content #logo {
+    position: absolute;
+    top: -30px;
+    left: 35px;
+}
+
+.left_content nav {
+    margin-top: 230px;
+}
+
+div.icon a {
+    display: block;
+    width: 272px;
+    height: 82px;
+}
+
+div.tours a {
+    background: url(../images/tours_nav.gif) top left no-repeat;
+}
+
+div.mission a {
+    background: url(../images/mission_nav.gif) top left no-repeat;
+}
+
+div.contact a {
+    background: url(../images/contact_nav.gif) top left no-repeat;
+}
+
+div.resources a {
+    background: url(../images/resources_nav.gif) top left no-repeat;
+}
+
+div.explorers a {
+    background: url(../images/explorers_nav.gif) top left no-repeat;
+}
+
+div.icon a:hover {
+    background-position: -272px 0;
+}
+
+.right_content {
+    margin-top: 250px;
+    width: 630px;
+    float: right;
+}
+
+.right_content .title {
+    font-size: 44px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.right_content p {
+    color: #333;
+    line-height: 26px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.clear {
+    clear: both;
+}
+
+.specials {
+    margin-top: 80px;
+    color: #193742;
+    width: 220px;
+    padding: 0px 15px;
+    background-color: #E1D8B9;
+    float: right;
+}
+
+.specials h2 {
+    border-bottom: 2px solid #193742;
+    padding: 15px 0px 5px 0px;
+}
+
+.firstPackage {
+    background: url(../images/calm_bug.gif) no-repeat;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    border-bottom: 1px solid #193742;
+}
+
+.secondPackage {
+    background: url(../images/desert_bug.gif) no-repeat;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    border-bottom: 1px solid #193742;
+}
+
+.thirdPackage {
+    background: url(../images/backpack_bug.gif) no-repeat;
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+
+.package {
+    text-align: right;
+    width: 142px;
+    float: right;
+    line-height: 24px;
+}
+
+.package span {
+    color: #193742;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.package a {
+    color: #A06231;
+    text-decoration: none;
+}
+
+.package a:hover {
+    border-bottom: 1px dotted #A06231;
+}
+
+.funFact {
+    margin: 20px 0px;
+    width: 220px;
+    padding: 0px 15px;
+    background-color: #E1D8B9;
+    float: right;
+}
+
+.funFact h2 {
+    color: #193742;
+    border-bottom: 2px solid #193742;
+    padding: 15px 0px 5px 0px;
+}
+
+.funFact p {
+    padding: 8px 0px;
+    color: #333;
+    font-size: 17px;
+}
+
+.tour {
+    color: #193742;
+    padding: 15px 25px 30px 20px;
+    width: 555px;
+    background-color: white;
+    position: relative;
+    margin-top: 155px;
+}
+
+.tour .info {
+    width: 380px;
+    float: left;
+}
+
+.tour .info h1 {
+    margin-bottom: 8px;
+}
+
+.tour .info p {
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.tour .info p:nth-of-type(2) {
+    text-align: right;
+    line-height: 25px;
+}
+
+.tour .info a {
+    font-weight: bold;
+    color: #995C1F;
+    text-align: right;
+    text-decoration: none;
+}
+
+.tour .info a:hover {
+    color: #CC0000;
+}
+
+.tour .info a:visited {
+    color: #551A8B;
+}
+
+.tour img {
+    float: right;
+    margin-top: 30px;
+}
+
+footer {
+    margin: 0 auto;
+    clear: both;
+    width: 870px;
+    height: 600px;
+    background: url(../images/footer_back.gif) no-repeat;
+    padding: 40px 30px 0px 30px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: #333;
+    border-bottom: 2px dotted;
+}
+
+footer ul {
+    float: left;
+}
+
+footer ul p {
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 20px;
+}
+
+footer ul li {
+    font-size: 18px;
+    padding-bottom: 10px;
+    list-style-type: none;
+}
+
+footer .help {
+    margin-left: 150px;
+    float: left;
+    color: white;
+}
+
+footer .help h2 {
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    font-weight: lighter;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+footer .contactInfo {
+    float: right;
+    text-align: right;
+    color: white;
+}
+
+footer .help .faq {
+    margin-bottom: 30px;
+}
+
+footer .help .support {
+    margin-bottom: 30px;
+}
